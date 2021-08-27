@@ -1,0 +1,30 @@
+package novoProjeto;
+
+import java.util.Scanner;
+
+public class NovoProjeto {
+
+	public static void main(String[] args) {
+
+    Scanner leitor = new Scanner(System.in);
+    double  v1, v2, v3;
+    
+    System.out.println("Primeira medida é: ");
+     v1 = leitor.nextDouble();
+    
+     System.out.println("Segunda medida é: ");
+     v2 = leitor.nextDouble();
+     
+     System.out.println("Terceira medida é: ");
+     v3 = leitor.nextDouble();
+     leitor.close();
+     
+     if ( v1 ==v2 && v1==v3) {
+    	 sysout
+    	 
+    	 
+     }
+
+  }
+
+}
